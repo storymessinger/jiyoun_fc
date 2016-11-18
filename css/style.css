@@ -1,0 +1,136 @@
+html {
+    width: 100%;
+    height: 100%;
+    /*    background: linear-gradient(225deg, #1185ec, #a4aff7, #cc7fee);*/
+    font-family: 'Cabin';
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(225deg, #1185ec, #a4aff7, #edbef3, #f3a0aa);
+    background-size: 600% 600%;
+    animation: cssGradientAnimator 8s ease infinite;
+}
+
+@keyframes cssGradientAnimator { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.title {
+    font-size: 1.3em; 
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    color: lightgoldenrodyellow;
+}
+
+.footer {
+    font-size: 1.3em; 
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    color: lightgoldenrodyellow;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.gastby {
+    width: 100%;
+    height: 100%;
+    opacity: 1.0;
+    
+    margin: 0;
+    position:relative;
+    overflow: hidden;
+    
+    -webkit-transition: opacity 2s ease-in-out 0s;
+    transition: opacity 2s ease-in-out 0s;
+}
+
+.gastby:hover {
+    opacity: 0.2;
+}
+
+.gatsby::-webkit-scrollbar {
+    width: 0px;
+}
+
+.gastby p {
+    color: lightgoldenrodyellow;
+    font-size: 8vw;
+    top: 20px;
+    padding: 3vw 6vw 3vw 6vw;
+    
+    opacity: 1;
+    
+    position: absolute;
+    overflow-y:scroll;
+    max-height: 75vh;
+    
+}
+
+/*
+.gastby p:hover {
+    opacity: 0.5;
+}
+*/
+
+/*
+.rotate-box {
+    font-size: 1.5em;
+    margin: auto;
+    background-color: lightgoldenrodyellow;
+    
+    width: 20vw;
+    height: 20vw;
+    opacity: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    
+    -webkit-transition: 
+        width 2s ease-out 0s,
+        height 2s ease-out 0s, 
+        opacity 2s ease-out 0s,
+        transform 2s ease-out 0s;
+    transition: 
+        width 2s ease-out 0s,
+        height 2s ease-out 0s, 
+        opacity 2s ease-out 0s,
+        transform 2s ease-out 0s;
+}
+
+.rotate-box:hover {
+    width: 40vw;
+    height: 40vw;
+    opacity: 0.7;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+*/
+    
+/*    animation: rotateBox 1.5s ease-out forwards;*/
+
+/*
+@keyframes rotateBox {
+    0% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1) rotate(45deg);
+        background-color: lightgoldenrodyellow;
+        opacity: 0.7;
+    } 
+}*/
