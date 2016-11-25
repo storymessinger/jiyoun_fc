@@ -1,0 +1,22 @@
+{
+  "name": "jiyoun_fc",
+  "version": "1.0.0",
+  "description": "fanstastic conceits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storymessinger/jiyoun_fc.git"
+  },
+  "author": "JD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/storymessinger/jiyoun_fc/issues"
+  },
+  "homepage": "https://github.com/storymessinger/jiyoun_fc#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
